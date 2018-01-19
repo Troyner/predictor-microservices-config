@@ -43,3 +43,7 @@ zuul:
         path: /microservico-autenticacao/**
         serviceId: microservico-autenticacao
         stripPrefix: true
+    microservico-upload-padrao:
+        path: /microservico-upload-padrao/**
+        serviceId: microservico-upload-padrao
+        stripPrefix: true
