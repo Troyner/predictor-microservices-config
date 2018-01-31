@@ -47,3 +47,15 @@ zuul:
         path: /microservico-upload-padrao/**
         serviceId: microservico-upload-padrao
         stripPrefix: true
+    microservico-upload-unificado:
+        path: /microservico-upload-unificado/**
+        serviceId: microservico-upload-unificado
+        stripPrefix: true
+    microservico-upload-transacao:
+        path: /microservico-upload-transacao/**
+        serviceId: microservico-upload-transacao
+        stripPrefix: true
+    microservico-sumarizacao:
+        path: /microservico-sumarizacao/**
+        serviceId: microservico-sumarizacao
+        stripPrefix: true
