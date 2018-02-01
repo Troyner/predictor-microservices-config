@@ -59,3 +59,11 @@ zuul:
         path: /microservico-sumarizacao/**
         serviceId: microservico-sumarizacao
         stripPrefix: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
