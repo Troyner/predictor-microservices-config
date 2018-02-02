@@ -59,6 +59,10 @@ zuul:
         path: /microservico-sumarizacao/**
         serviceId: microservico-sumarizacao
         stripPrefix: true
+    microservico-projecao-longo-prazo:
+        path: /microservico-projecao-longo-prazo/**
+        serviceId: microservico-projecao-longo-prazo
+        stripPrefix: true
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 ribbon:
